@@ -1,0 +1,15 @@
+#+title: Indikator
+
+Things to consider:
+
+1. Produce multiple tables with aggregated values
+2. Regroup age to make data anonymous
+   |   Age | Gender | AIS | etc |
+   |-------+--------+-----+-----|
+   |  0-10 | Male   |   2 |     |
+   |  0-10 | Female |   1 |     |
+   |  0-10 | Male   |   3 |     |
+   | 11-20 | Male   |   3 |     |
+   | 11-20 | Male   |   2 |     |
+3. Save as DuckDB database
+4. Types of accidents
